@@ -19,7 +19,7 @@ class CounterApp extends Component {
   render() {
     return (
       <div>
-        <h1>Counter: {this.state.count}</h1>
+        <h1>Count: {this.state.count}</h1>
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>
       </div>
