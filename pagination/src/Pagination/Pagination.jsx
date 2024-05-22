@@ -23,6 +23,7 @@ const PaginatedTable = () => {
     } catch (error) {
       setError('failed to fetch data');
       console.error('There has been a problem with your fetch operation:', error);
+      alert('failed to fetch data');
     }
   };
 
